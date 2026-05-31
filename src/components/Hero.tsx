@@ -12,8 +12,8 @@ const Hero: React.FC = () => {
           INFRASTRUCTURE · CIVIL · TELECOM
         </span>
         <h1 className="font-display-lg text-[clamp(72px,10vw,140px)] text-white leading-none mb-8 max-w-5xl" id="hero-title">
-          <span className="inline-block overflow-hidden"><span className="inline-block clip-text">WE</span></span>
-          <span className="inline-block overflow-hidden"><span className="inline-block clip-text">BUILD</span></span>
+          <span className="inline-block overflow-hidden"><span className="inline-block clip-text">WE&nbsp;</span></span>
+          <span className="inline-block overflow-hidden"><span className="inline-block clip-text">BUILD&nbsp;</span></span>
           <span className="inline-block overflow-hidden"><span className="inline-block clip-text">INDIA'S</span></span><br />
           <span className="inline-block overflow-hidden"><span className="inline-block clip-text">TOMORROW.</span></span>
         </h1>
