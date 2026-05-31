@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import gsap from 'gsap';
-import Lenis from '@studio-freight/lenis';
+
 import { handleGlobalNavClick } from '../utils/navigation';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { projectsData } from '../data/projectsData';
@@ -55,8 +55,8 @@ const ProjectsOverview: React.FC = () => {
     const ctx = gsap.context(() => {
       const cards = gsap.utils.toArray<HTMLElement>('.project-card');
       
-      const matching = cards.filter(card => activeCategory === 'ALL' || card.dataset.category === activeCategory.toLowerCase());
-      const nonMatching = cards.filter(card => activeCategory !== 'ALL' && card.dataset.category !== activeCategory.toLowerCase());
+      const matching = cards.filter((card: HTMLElement) => activeCategory === 'ALL' || card.dataset.category === activeCategory.toLowerCase());
+      const nonMatching = cards.filter((card: HTMLElement) => activeCategory !== 'ALL' && card.dataset.category !== activeCategory.toLowerCase());
 
       if (nonMatching.length) {
         gsap.to(nonMatching, { scale: 0.8, opacity: 0, duration: 0.4, ease: "power2.in", display: 'none' });

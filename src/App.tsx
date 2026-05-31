@@ -6,7 +6,7 @@ import ServiceDetail from './pages/ServiceDetail';
 import ProjectsOverview from './pages/ProjectsOverview';
 import ProjectDetail from './pages/ProjectDetail';
 import Contact from './pages/Contact';
-import Navbar from './components/Navbar'; // We'll render Navbar globally if they aren't included in pages
+
 import { PageTransitionOverlay } from './components/PageTransitionOverlay';
 import { MorphTransitionOverlay } from './components/MorphTransitionOverlay';
 import { SyncTransitionOverlay } from './components/SyncTransitionOverlay';

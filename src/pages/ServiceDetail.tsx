@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-import Lenis from '@studio-freight/lenis';
+
 import { handleGlobalNavClick } from '../utils/navigation';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { servicesData } from '../data/servicesData';
