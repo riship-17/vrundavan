@@ -4,7 +4,7 @@ export const servicesData = {
     category: "UTILITIES",
     title: "Pipeline Laying",
     shortDesc: "Expertise in heavy-duty fluid transportation systems.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/pipeline_hero_1780235871637.png",
+    heroImage: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "Vrundavan Construction provides end-to-end pipeline laying solutions for cross-country and urban fluid transportation. Our expertise covers critical water distribution networks, gas pipelines, and industrial slurry lines, ensuring leak-proof integrity across hundreds of kilometers.",
       "Utilizing advanced trenching methodologies and horizontal directional drilling (HDD), we navigate complex topographies, river crossings, and dense urban environments with minimal disruption. Every joint is subjected to rigorous non-destructive testing (NDT) to guarantee IS Code compliance.",
@@ -19,8 +19,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "GWSSB", locations: "GUJARAT & MP", metric: "500+ KM", highlight: "HDD SPECIALISTS", status: "ONGOING" },
     projects: [
-      { title: "NARMADA CANAL BULK LINE", category: "WATER GRID", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/lining_hero_1780235976334.png" },
-      { title: "URBAN GAS DISTRIBUTION", category: "ENERGY", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/road_hero_1780235885870.png" }
+      { title: "NARMADA CANAL BULK LINE", category: "WATER GRID", image: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=2940&auto=format&fit=crop" },
+      { title: "URBAN GAS DISTRIBUTION", category: "ENERGY", image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=2940&auto=format&fit=crop" }
     ]
   },
   road: {
@@ -28,7 +28,7 @@ export const servicesData = {
     category: "TRANSPORT",
     title: "Road Construction",
     shortDesc: "High-durability paving and highway engineering.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/road_hero_1780235885870.png",
+    heroImage: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "We build the arteries of India's logistics network. From national highways to heavy-duty industrial corridor paving, our road construction division focuses on surface durability, load-bearing capacity, and all-weather resilience.",
       "Our engineering encompasses deep earth compaction, superior sub-base grading, and the application of high-grade asphalt and rigid concrete pavements. We utilize sensor-equipped pavers and intelligent compaction rollers to achieve millimeter-perfect surface tolerances.",
@@ -43,8 +43,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "NHAI", locations: "WESTERN INDIA", metric: "120+ KM", highlight: "SMART PAVING", status: "COMPLETED" },
     projects: [
-      { title: "STATE HIGHWAY 41 EXPANSION", category: "TRANSPORT", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/civil_hero_1780235901467.png" },
-      { title: "INDUSTRIAL PARK CORRIDOR", category: "LOGISTICS", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png" }
+      { title: "STATE HIGHWAY 41 EXPANSION", category: "TRANSPORT", image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop" },
+      { title: "INDUSTRIAL PARK CORRIDOR", category: "LOGISTICS", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop" }
     ]
   },
   civil: {
@@ -52,7 +52,7 @@ export const servicesData = {
     category: "STRUCTURE",
     title: "Civil Work",
     shortDesc: "Reinforced structures and foundational concrete solutions.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/civil_hero_1780235901467.png",
+    heroImage: "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "Civil engineering is the bedrock of Vrundavan Construction. We execute massive structural projects ranging from industrial warehouses and commercial complexes to highly specialized heavy-machine foundations and retaining structures.",
       "Our team excels in complex formwork, high-grade concrete pouring, and high-tensile steel reinforcement. We adhere to rigorous curing protocols and structural health monitoring to ensure maximum load-bearing capacities and seismic resilience.",
@@ -67,8 +67,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "ADANI GROUP", locations: "MUNDRA", metric: "2M+ SQ FT", highlight: "SEISMIC SAFE", status: "ONGOING" },
     projects: [
-      { title: "MEGA LOGISTICS WAREHOUSE", category: "INDUSTRIAL", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/pipeline_hero_1780235871637.png" },
-      { title: "STATUE OF UNITY PRECINCT", category: "MONUMENTAL", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/tower_hero_1780235916501.png" }
+      { title: "MEGA LOGISTICS WAREHOUSE", category: "INDUSTRIAL", image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2940&auto=format&fit=crop" },
+      { title: "STATUE OF UNITY PRECINCT", category: "MONUMENTAL", image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2940&auto=format&fit=crop" }
     ]
   },
   tower: {
@@ -76,7 +76,7 @@ export const servicesData = {
     category: "ENERGY & DATA",
     title: "Tower Construction",
     shortDesc: "Erecting telecommunication and power transmission grids.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/tower_hero_1780235916501.png",
+    heroImage: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "Vrundavan Construction stands at the forefront of telecommunications infrastructure, specializing in the high-precision verticality required for modern tower systems. Our engineering approach integrates structural resilience with rapid deployment protocols.",
       "With over a decade of specialized experience in high-altitude structural engineering, our teams manage every phase of the project lifecycle. From soil analysis and foundation casting to the final bolt tightening and lighting installation, we treat every tower as a critical node.",
@@ -91,8 +91,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "RELIANCE JIO", locations: "GUJARAT", metric: "173+", highlight: "RDSO-COMPLIANT", status: "ONGOING" },
     projects: [
-      { title: "AHMEDABAD METRO NODE", category: "INFRASTRUCTURE", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/railway_hero_1780235997946.png" },
-      { title: "KUTCH DESERT REACH", category: "REMOTE CONNECTIVITY", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/ofc_hero_1780235945084.png" }
+      { title: "AHMEDABAD METRO NODE", category: "INFRASTRUCTURE", image: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=2940&auto=format&fit=crop" },
+      { title: "KUTCH DESERT REACH", category: "REMOTE CONNECTIVITY", image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=2940&auto=format&fit=crop" }
     ]
   },
   ofc: {
@@ -100,7 +100,7 @@ export const servicesData = {
     category: "DATA",
     title: "OFC Laying",
     shortDesc: "Precision optic fiber network deployments.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/ofc_hero_1780235945084.png",
+    heroImage: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "We build the backbone of the digital age. Our Optical Fiber Cable (OFC) laying division executes high-speed network connectivity projects across urban grids and rural landscapes, connecting the unconnected.",
       "Utilizing micro-trenching, HDD, and precise ducting techniques, we lay delicate fiber-optic lines securely beneath the earth. Our process includes meticulous cable blowing, highly accurate fusion splicing, and rigorous OTDR testing to ensure zero-loss signal transmission.",
@@ -115,8 +115,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "BHARTI AIRTEL", locations: "PAN-INDIA", metric: "12,000 KM", highlight: "5G READY", status: "ONGOING" },
     projects: [
-      { title: "GUJARAT FIBER GRID", category: "STATE NETWORK", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/pipeline_hero_1780235871637.png" },
-      { title: "SMART CITY BACKBONE", category: "URBAN DATA", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/civil_hero_1780235901467.png" }
+      { title: "GUJARAT FIBER GRID", category: "STATE NETWORK", image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop" },
+      { title: "SMART CITY BACKBONE", category: "URBAN DATA", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop" }
     ]
   },
   earthwork: {
@@ -124,7 +124,7 @@ export const servicesData = {
     category: "TERRAIN",
     title: "Earthwork & Excavation",
     shortDesc: "Large scale land grading and site preparation.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png",
+    heroImage: "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "Before any structure rises, the earth must be tamed. Our heavy earthwork and excavation division provides the crucial first step for massive infrastructure, industrial, and mining projects.",
       "Operating a formidable fleet of heavy excavators, bulldozers, and dumpers, we execute precision land grading, deep trenching, and massive volumetric soil removal. Our engineers utilize GPS-guided grading systems for exact topographical matching.",
@@ -139,8 +139,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "TATA PROJECTS", locations: "MAHARASHTRA", metric: "5M+ CBM", highlight: "GPS GRADING", status: "COMPLETED" },
     projects: [
-      { title: "GREENFIELD AIRPORT PREP", category: "AVIATION", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/road_hero_1780235885870.png" },
-      { title: "RESERVOIR EXCAVATION", category: "WATER MANAGEMENT", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/lining_hero_1780235976334.png" }
+      { title: "GREENFIELD AIRPORT PREP", category: "AVIATION", image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2940&auto=format&fit=crop" },
+      { title: "RESERVOIR EXCAVATION", category: "WATER MANAGEMENT", image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2940&auto=format&fit=crop" }
     ]
   },
   lining: {
@@ -148,7 +148,7 @@ export const servicesData = {
     category: "SEAL",
     title: "Lining & Grouting",
     shortDesc: "Surface protection and structural reinforcement services.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/lining_hero_1780235976334.png",
+    heroImage: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "Water management and structural sealing require uncompromising precision. Our lining and grouting services ensure the absolute impermeability and reinforcement of canals, tunnels, and deep foundations.",
       "We deploy mechanical pavers for massive canal concrete lining, preventing seepage and ensuring efficient water transport for state-level irrigation projects. Our pressure grouting techniques consolidate soil and fill deep structural voids, drastically increasing foundational load capacities.",
@@ -163,8 +163,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "SSNNL", locations: "SAURASHTRA", metric: "85 KM", highlight: "ZERO SEEPAGE", status: "ONGOING" },
     projects: [
-      { title: "SAURASHTRA BRANCH CANAL", category: "IRRIGATION", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png" },
-      { title: "HYDRO-TUNNEL REINFORCEMENT", category: "POWER", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/tower_hero_1780235916501.png" }
+      { title: "SAURASHTRA BRANCH CANAL", category: "IRRIGATION", image: "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=2940&auto=format&fit=crop" },
+      { title: "HYDRO-TUNNEL REINFORCEMENT", category: "POWER", image: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=2940&auto=format&fit=crop" }
     ]
   },
   railway: {
@@ -172,7 +172,7 @@ export const servicesData = {
     category: "HEAVY RAIL",
     title: "Railway Infrastructure",
     shortDesc: "Comprehensive railway track laying and station work.",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/railway_hero_1780235997946.png",
+    heroImage: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=2940&auto=format&fit=crop",
     paragraphs: [
       "Driving the momentum of the nation's transit. We execute highly technical railway infrastructure projects, from broad-gauge track laying to the construction of modern transit stations and railway overbridges (ROBs).",
       "Our railway engineering covers complex earthworks for embankments, precision ballast laying, track linking, and sleeper installation. We operate within the stringent safety parameters and strict block-hour constraints of Indian Railways.",
@@ -187,8 +187,8 @@ export const servicesData = {
     ],
     quickFacts: { client: "INDIAN RAILWAYS", locations: "WESTERN ZONE", metric: "60+ KM", highlight: "IS/IRS COMPLIANT", status: "ONGOING" },
     projects: [
-      { title: "WESTERN DEDICATED FREIGHT", category: "TRANSIT", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/ofc_hero_1780235945084.png" },
-      { title: "PIPAVAV PORT CONNECTIVITY", category: "LOGISTICS", image: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/railway_hero_1780235997946.png" }
+      { title: "WESTERN DEDICATED FREIGHT", category: "TRANSIT", image: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop" },
+      { title: "PIPAVAV PORT CONNECTIVITY", category: "LOGISTICS", image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop" }
     ]
   }
 };

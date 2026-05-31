@@ -109,7 +109,7 @@ const ProjectsOverview: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent z-10"></div>
           <img
-            src="/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/projects_hero_1780241027665.png"
+            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2940&auto=format&fit=crop"
             alt="Cinematic wide shot of a massive bridge construction"
             className="w-full h-full object-cover grayscale-[30%] opacity-70"
           />

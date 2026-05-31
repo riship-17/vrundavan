@@ -101,7 +101,7 @@ const ServicesOverview: React.FC = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/60 z-10"></div>
           <img
-            src="/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/services_hero_1780241006820.png"
+            src="https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop"
             alt="Cinematic shot of heavy construction site"
             className="w-full h-full object-cover grayscale-[30%] opacity-80"
           />

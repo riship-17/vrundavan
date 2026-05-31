@@ -39,8 +39,8 @@ export const projectsData = {
     title: "BARI - SANGAMNER ROAD PROJECTS",
     shortTitle: "Bari-Sangamner Highway",
     location: "Maharashtra, India",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/road_hero_1780235885870.png",
-    thumbnailImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/bari_project_1780237500909.png",
+    heroImage: "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop",
+    thumbnailImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2940&auto=format&fit=crop",
     description: [
       "The Bari-Sangamner road project is a critical infrastructure initiative aimed at improving connectivity and reducing travel time across the hilly terrains of Maharashtra. Vrundavan Construction was responsible for laying a multi-lane highway capable of handling heavy commercial traffic.",
       "The project involved massive earth-moving operations, cutting through dense rock formations, and laying high-grade asphalt layers using the latest paving technology. Our precision grading and advanced compaction techniques guarantee a road surface built to withstand extreme weather and heavy loads.",
@@ -59,9 +59,9 @@ export const projectsData = {
     },
     highlights: ["Hill Slope Stabilization", "Heavy Duty Asphalt", "Advanced Drainage"],
     gallery: [
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/bari_project_1780237500909.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/road_hero_1780235885870.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png"
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=2940&auto=format&fit=crop"
     ],
     heightClass: "h-[420px]"
   },
@@ -72,8 +72,8 @@ export const projectsData = {
     title: "ISP PARVATI PIPELINE PROJECT",
     shortTitle: "Parvati Pipeline",
     location: "Madhya Pradesh, India",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/pipeline_hero_1780235871637.png",
-    thumbnailImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/isp_project_1780237517940.png",
+    heroImage: "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=2940&auto=format&fit=crop",
+    thumbnailImage: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=2940&auto=format&fit=crop",
     description: [
       "The ISP Parvati Pipeline Project stands as a monumental achievement in water infrastructure. Designed to transport raw water across challenging geographical obstacles, this pipeline serves as a lifeline for major agricultural and industrial zones.",
       "Vrundavan Construction laid massive steel conduits utilizing automated welding, non-destructive testing, and sophisticated lowering techniques. We deployed specialized heavy cranes to navigate the rugged terrain, ensuring each segment was joined with absolute leak-proof integrity.",
@@ -92,9 +92,9 @@ export const projectsData = {
     },
     highlights: ["Automated Welding", "Terrain Navigation", "Anti-Corrosion Coating"],
     gallery: [
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/isp_project_1780237517940.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/pipeline_hero_1780235871637.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png"
+      "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop"
     ],
     heightClass: "h-[360px]"
   },
@@ -105,8 +105,8 @@ export const projectsData = {
     title: "JIO NLD ROUTES OFC PROJECT",
     shortTitle: "Jio OFC Routes",
     location: "Pan-India",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/ofc_hero_1780235945084.png",
-    thumbnailImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/jio_ofc_project_1780237537775.png",
+    heroImage: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2940&auto=format&fit=crop",
+    thumbnailImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2940&auto=format&fit=crop",
     description: [
       "Driving India's digital revolution, Vrundavan Construction partnered with Reliance Jio to lay thousands of kilometers of Optical Fiber Cable (OFC) for their National Long Distance (NLD) routes. This network forms the backbone of modern high-speed internet connectivity across the nation.",
       "Our scope included high-speed trenching, precise duct laying, and cable blowing through varied topographies—from urban concrete jungles to remote rural highways. We utilized specialized micro-trenching technology to minimize surface disruption while maintaining incredible daily laying speeds.",
@@ -125,9 +125,9 @@ export const projectsData = {
     },
     highlights: ["Micro-trenching", "HDD Drilling", "Fiber Blowing"],
     gallery: [
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/jio_ofc_project_1780237537775.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/ofc_hero_1780235945084.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/road_hero_1780235885870.png"
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=2940&auto=format&fit=crop"
     ],
     heightClass: "h-[320px]"
   },
@@ -138,8 +138,8 @@ export const projectsData = {
     title: "JIO GROWTH 4 & 5 TOWER PROJECT",
     shortTitle: "Jio Tower Network",
     location: "Western India",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/tower_hero_1780235916501.png",
-    thumbnailImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/jio_tower_project_1780237555606.png",
+    heroImage: "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=2940&auto=format&fit=crop",
+    thumbnailImage: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop",
     description: [
       "To support the rapid expansion of 4G and 5G networks, Vrundavan Construction undertook the massive Jio Growth 4 & 5 Tower Project. We were tasked with the end-to-end civil construction and steel erection of hundreds of telecommunication towers.",
       "From deep foundation piling to the precise assembly of towering steel lattice structures, our engineers operated at staggering heights with an uncompromising commitment to safety. We optimized the assembly line process, allowing simultaneous erection across multiple sites.",
@@ -158,9 +158,9 @@ export const projectsData = {
     },
     highlights: ["High-Altitude Erection", "Deep Pile Foundations", "Cyclone-Proofing"],
     gallery: [
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/jio_tower_project_1780237555606.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/tower_hero_1780235916501.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/civil_hero_1780235901467.png"
+      "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2940&auto=format&fit=crop"
     ],
     heightClass: "h-[420px]"
   },
@@ -171,8 +171,8 @@ export const projectsData = {
     title: "SARDAR SAROVAR PROJECT",
     shortTitle: "Sardar Sarovar Dam & Canal",
     location: "Narmada District, Gujarat",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/lining_hero_1780235976334.png",
-    thumbnailImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/sardar_sarovar_project_1780237593662.png",
+    heroImage: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2940&auto=format&fit=crop",
+    thumbnailImage: "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2940&auto=format&fit=crop",
     description: [
       "The Sardar Sarovar Project is one of the largest water resources projects in India. Vrundavan Construction played a pivotal role in the expansive canal lining and earthwork infrastructure, enabling the distribution of water to drought-prone regions.",
       "Our teams executed massive concrete lining works for the main canal networks, utilizing specialized heavy machinery to lay continuous, seamless concrete slopes. The challenge was maintaining exact gradients over vast distances to ensure optimal water flow mechanics.",
@@ -191,9 +191,9 @@ export const projectsData = {
     },
     highlights: ["Mass Concrete Pouring", "Laser-Guided Grading", "Hydro-dynamic Shaping"],
     gallery: [
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/sardar_sarovar_project_1780237593662.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/lining_hero_1780235976334.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png"
+      "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1429497419816-9ca5cfb4571a?q=80&w=2940&auto=format&fit=crop"
     ],
     heightClass: "h-[320px]"
   },
@@ -204,8 +204,8 @@ export const projectsData = {
     title: "PIPAVAV SIDING PROJECT",
     shortTitle: "Pipavav Port Railway Siding",
     location: "Amreli, Gujarat",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/railway_hero_1780235997946.png",
-    thumbnailImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/pipavav_project_1780237610559.png",
+    heroImage: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop",
+    thumbnailImage: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?q=80&w=2940&auto=format&fit=crop",
     description: [
       "To accelerate freight movement at one of India's busiest ports, Vrundavan Construction was commissioned for the Pipavav Railway Siding Project. This required the rapid construction of heavy-duty rail infrastructure to support massive cargo trains.",
       "We managed the complete track linking process—from laying the deep ballast foundation to installing the concrete sleepers and securing the heavy steel rails. Our engineers meticulously aligned the turnouts and crossings to ensure smooth, derailment-free operations under maximum load capacities.",
@@ -224,9 +224,9 @@ export const projectsData = {
     },
     highlights: ["Track Linking", "Turnout Installation", "Ballast Compaction"],
     gallery: [
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/pipavav_project_1780237610559.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/railway_hero_1780235997946.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/civil_hero_1780235901467.png"
+      "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2940&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2940&auto=format&fit=crop"
     ],
     heightClass: "h-[360px]"
   }
