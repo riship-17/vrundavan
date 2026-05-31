@@ -6,8 +6,8 @@ export const projectsData = {
     title: "STATUE OF UNITY — EXCAVATION & EARTHWORK",
     shortTitle: "Statue of Unity Foundation",
     location: "Kevadia, Gujarat, India",
-    heroImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png",
-    thumbnailImage: "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/sou_project_1780237481548.png",
+    heroImage: "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=2940&auto=format&fit=crop",
+    thumbnailImage: "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=1000&auto=format&fit=crop",
     description: [
       "The foundation of the tallest metal statue needs a solid and uncommonly strong base. Vrundavan Construction has built the base with great integrity and we take a bit of pride in completing the project before time.",
       "This portrays the strength of Vrundavan Construction in the field of excavating and construction. Our team utilized a fleet of high-capacity hydraulic excavators and precision drilling rigs to manage the complex geological conditions of the Narmada riverbed.",
@@ -26,9 +26,9 @@ export const projectsData = {
     },
     highlights: ["Seismic Proofing", "Rock Anchoring", "Hard Rock Blasting"],
     gallery: [
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/sou_project_1780237481548.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/earthwork_hero_1780235960955.png",
-      "/@fs/Users/rishi/.gemini/antigravity-ide/brain/194793b2-4f6d-49e7-9934-8409df194d68/civil_hero_1780235901467.png"
+      "https://images.unsplash.com/photo-1541888081691-3e4a9057b1bc?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1000&auto=format&fit=crop"
     ],
     heightClass: "h-[320px]"
   },
