@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
+import Navbar from '../components/Navbar';
 import { handleGlobalNavClick } from '../utils/navigation';
 import { projectsData } from '../data/projectsData';
 
@@ -75,29 +76,7 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ projectId = 'statue-of-un
       <div className="horizontal-slash" id="slash-overlay"></div>
 
       {/* Navigation */}
-      <header id="detail-nav" className="bg-transparent transition-colors duration-500 fixed top-0 w-full z-50 border-b border-white/10">
-        <div className="flex justify-between items-center max-w-max-width mx-auto px-gutter py-base">
-          <div className="font-headline-h3 text-[28px] text-white tracking-tighter">● VRUNDAVAN</div>
-          <nav className="hidden md:flex items-center gap-8">
-            {['HOME', 'ABOUT', 'SERVICES', 'PROJECTS', 'CONTACT'].map((item) => {
-              const path = item === 'HOME' ? '/' : `/${item.toLowerCase()}`;
-              return (
-                <a 
-                  key={item} 
-                  href={path} 
-                  className={`font-nav-link text-nav-link uppercase text-on-primary-container hover:text-primary transition-colors duration-300 ${item === 'PROJECTS' ? 'text-primary border-b-2 border-primary pb-1' : ''}`}
-                  onClick={(e) => handleGlobalNavClick(e, item, path)}
-                >
-                  {item}
-                </a>
-              );
-            })}
-          </nav>
-          <button className="bg-primary text-white font-label-caps px-6 py-3 tracking-widest hover:bg-primary-container transition-all duration-300 active:scale-95">
-            GET A QUOTE
-          </button>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Hero Section */}
       <section className="relative h-[716px] w-full overflow-hidden flex items-end pb-20 bg-black">

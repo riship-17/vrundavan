@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
+import Navbar from '../components/Navbar';
 import { handleGlobalNavClick } from '../utils/navigation';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -101,32 +102,7 @@ const Contact: React.FC = () => {
     <div className="bg-surface font-body-md text-on-surface overflow-x-hidden" ref={containerRef}>
       
       {/* TopNavBar */}
-      <header className={`fixed top-0 w-full z-50 transition-colors duration-500 border-b border-white/10 ${isScrolled ? 'bg-black' : 'bg-transparent'}`}>
-        <nav className="flex justify-between items-center max-w-max-width mx-auto px-gutter py-base">
-          <div className="font-headline-h3 text-[28px] text-on-primary-container tracking-tighter">
-            ● VRUNDAVAN
-          </div>
-          <div className="hidden md:flex items-center space-x-8">
-            {['HOME', 'ABOUT', 'SERVICES', 'PROJECTS', 'CONTACT'].map((item) => {
-              const path = item === 'HOME' ? '/' : `/${item.toLowerCase()}`;
-              const isActive = item === 'CONTACT';
-              return (
-                <a 
-                  key={item} 
-                  href={path}
-                  onClick={(e) => handleGlobalNavClick(e, item, path)}
-                  className={`font-nav-link uppercase ${isActive ? 'text-primary border-b-2 border-primary pb-1' : 'text-on-primary-container hover:text-primary transition-colors duration-300 orange-underline-animation'}`}
-                >
-                  {item}
-                </a>
-              );
-            })}
-          </div>
-          <button className="bg-primary px-6 py-2 font-label-caps text-on-primary tracking-widest hover:brightness-110 active:scale-95 transition-all">
-            GET A QUOTE
-          </button>
-        </nav>
-      </header>
+      <Navbar />
 
       <main>
         {/* Page Hero */}

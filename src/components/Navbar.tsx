@@ -29,7 +29,7 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-8">
           {['HOME', 'ABOUT', 'SERVICES', 'PROJECTS', 'CONTACT'].map((item) => {
             const path = item === 'HOME' ? '/' : `/${item.toLowerCase()}`;
-            const isActive = window.location.pathname === path;
+            const isActive = path === '/' ? window.location.pathname === '/' : window.location.pathname.startsWith(path);
             return (
               <a
                 key={item}
@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
       >
         {['HOME', 'ABOUT', 'SERVICES', 'PROJECTS', 'CONTACT'].map((item) => {
             const path = item === 'HOME' ? '/' : `/${item.toLowerCase()}`;
-            const isActive = window.location.pathname === path;
+            const isActive = path === '/' ? window.location.pathname === '/' : window.location.pathname.startsWith(path);
             return (
               <a
                 key={item}

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-
+import Navbar from '../components/Navbar';
 import { handleGlobalNavClick } from '../utils/navigation';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { servicesData } from '../data/servicesData';
@@ -93,28 +93,7 @@ const ServiceDetail: React.FC<ServiceDetailProps> = ({ serviceId = 'tower' }) =>
     <div className="bg-background text-on-background overflow-x-hidden" ref={containerRef}>
       {/* Ensure .blind-reveal { clip-path: inset(0 0 100% 0); } is in your CSS */}
       
-      {/* TopNavBar */}
-      <nav id="detail-top-nav" className="fixed top-0 w-full z-50 bg-transparent transition-colors duration-500 border-b border-white/10">
-        <div className="flex justify-between items-center max-w-max-width mx-auto px-gutter py-base">
-          <a href="#" className="font-headline-h3 text-[28px] text-white tracking-tighter">● VRUNDAVAN</a>
-          <div className="hidden md:flex items-center gap-8">
-            {['HOME', 'ABOUT', 'SERVICES', 'PROJECTS', 'CONTACT'].map((item) => {
-              const path = item === 'HOME' ? '/' : `/${item.toLowerCase()}`;
-              return (
-                <a 
-                  key={item} 
-                  href={path} 
-                  className={`font-nav-link text-nav-link uppercase text-on-primary-container hover:text-primary transition-colors duration-300 ${item === 'SERVICES' ? 'text-primary border-b-2 border-primary pb-1' : ''}`}
-                  onClick={(e) => handleGlobalNavClick(e, item, path)}
-                >
-                  {item}
-                </a>
-              );
-            })}
-            <button className="bg-primary hover:bg-primary-container text-white px-6 py-2 font-label-caps tracking-widest transition-all duration-300 transform active:scale-95">GET A QUOTE</button>
-          </div>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Hero Section */}
       <section className="relative h-[614px] w-full flex flex-col justify-end overflow-hidden">

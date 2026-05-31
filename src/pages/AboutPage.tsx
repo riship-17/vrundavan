@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from '@studio-freight/lenis';
+import Navbar from '../components/Navbar';
 import { handleGlobalNavClick } from '../utils/navigation';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -162,36 +163,7 @@ const AboutPage: React.FC = () => {
       <div className="burn-wipe bg-black absolute inset-0 z-[100] origin-top"></div>
 
       {/* TopNavBar */}
-      <nav
-        className={`fixed top-0 w-full z-50 transition-colors duration-500 border-b border-white/10 ${
-          isScrolled ? 'bg-black' : 'bg-transparent'
-        }`}
-      >
-        <div className="flex justify-between items-center max-w-max-width mx-auto px-gutter py-base">
-          <div className="font-headline-h3 text-[28px] text-on-primary-container tracking-tighter">
-            ● VRUNDAVAN
-          </div>
-          <div className="hidden md:flex space-x-8">
-            {['HOME', 'ABOUT', 'SERVICES', 'PROJECTS', 'CONTACT'].map((item) => {
-              const path = item === 'HOME' ? '/' : `/${item.toLowerCase()}`;
-              const isActive = item === 'ABOUT';
-              return (
-                <a
-                  key={item}
-                  href={path}
-                  onClick={(e) => handleGlobalNavClick(e, item, path)}
-                  className={`font-nav-link text-nav-link uppercase transition-colors duration-300 ${isActive ? 'text-primary border-b-2 border-primary pb-1' : 'text-on-tertiary-container/60 hover:text-primary'}`}
-                >
-                  {item}
-                </a>
-              );
-            })}
-          </div>
-          <button className="bg-primary text-on-primary px-6 py-2 font-label-caps text-label-caps tracking-widest hover:brightness-110 active:scale-95 transition-all duration-200">
-            GET A QUOTE
-          </button>
-        </div>
-      </nav>
+      <Navbar />
 
       {/* Page Hero (55vh) */}
       <header className="relative h-[563px] w-full overflow-hidden flex items-end">

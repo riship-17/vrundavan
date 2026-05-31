@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import gsap from 'gsap';
-
+import Navbar from '../components/Navbar';
 import { handleGlobalNavClick } from '../utils/navigation';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { servicesData } from '../data/servicesData';
@@ -72,29 +72,7 @@ const ServicesOverview: React.FC = () => {
   return (
     <div className="bg-background text-on-background font-body-md overflow-x-hidden" ref={mainContainer}>
       {/* Top Navigation Bar */}
-      <header id="services-header" className="fixed top-0 w-full z-50 bg-transparent transition-colors duration-500 border-b border-white/10">
-        <nav className="flex justify-between items-center max-w-max-width mx-auto px-gutter py-base">
-          <div className="font-headline-h3 text-[28px] text-on-primary-container tracking-tighter">● VRUNDAVAN</div>
-          <div className="hidden md:flex items-center gap-10">
-            {['HOME', 'ABOUT', 'SERVICES', 'PROJECTS', 'CONTACT'].map((item) => {
-              const path = item === 'HOME' ? '/' : `/${item.toLowerCase()}`;
-              return (
-                <a 
-                  key={item} 
-                  href={path} 
-                  className={`font-nav-link text-nav-link uppercase text-on-primary-container hover:text-primary transition-colors duration-300 ${item === 'SERVICES' ? 'text-primary border-b-2 border-primary pb-1' : ''}`}
-                  onClick={(e) => handleGlobalNavClick(e, item, path)}
-                >
-                  {item}
-                </a>
-              );
-            })}
-          </div>
-          <button className="bg-primary text-on-primary px-6 py-2 font-label-caps tracking-widest text-[14px] hover:bg-primary-container transition-all active:scale-95 duration-200">
-            GET A QUOTE
-          </button>
-        </nav>
-      </header>
+      <Navbar />
 
       {/* Page Hero */}
       <section className="relative h-[512px] min-h-[400px] flex items-center justify-center overflow-hidden">
