@@ -1,0 +1,238 @@
+<section class="page" id="contact-page" data-title="Contact - Vrundavan Construction">
+  <header id="contact__header">
+  <div id="contact__header__img-wrapper">
+    <div id="contact__header__img"></div>
+  </div>
+  <div id="contact__header__overlay"></div>
+  <div id="contact__header__txt">
+    <h1 id="contact__title">Say Hello !</h1>
+    <h2 id="contact__subtitle">For a <span data-target="project">project</span>, as a <span data-target="vendor">partner</span> or as a <span data-target="job">team</span>.</h2>
+    <div id="contact__intro">Whether you have a project, want to work with us as a vendor or want to join our team, our journey together begins here. We’re available Mon – Sat, 9 AM to 8 PM, and we respond within 24 hours.</div>
+  </div>
+</header>  <form id="contact__form" action="/contact-form" method="POST" enctype="multipart/form-data">
+  <div id="contact__form__alert"></div>
+
+  <fieldset id="contact__subject">
+    <legend class="contact__form__title">Get in touch</legend>
+    <ul id="contact__form__subject__list">
+                    <li class="contact__form__subject__item contact__form__radio">
+          <label>
+            <input type="radio" value="project" name="subject">
+            <span class="contact__form__radio__picto"></span>
+            <span class="contact__form__radio__label">Request our service for a project</span>
+          </label>
+        </li>
+              <li class="contact__form__subject__item contact__form__radio">
+          <label>
+            <input type="radio" value="vendor" name="subject">
+            <span class="contact__form__radio__picto"></span>
+            <span class="contact__form__radio__label">Working with us as a Vendor</span>
+          </label>
+        </li>
+              <li class="contact__form__subject__item contact__form__radio">
+          <label>
+            <input type="radio" value="job" name="subject">
+            <span class="contact__form__radio__picto"></span>
+            <span class="contact__form__radio__label">Join the Vrundavan team</span>
+          </label>
+        </li>
+          </ul>
+  </fieldset>
+
+  <fieldset id="contact__form__jobs">
+    <legend class="contact__form__title">Select position</legend>
+    <div id="contact__form__jobs__select-wrapper">
+      <div id="contact__form__jobs__select-picto"></div>
+      <select id="contact__form__jobs__select" name="job">
+          <option value="general-application">General application — engineering &amp; site roles</option>
+        </select>
+    </div>
+    <button type="button" class="contact__form__btn" id="contact__form__jobs__detail" type="button">Job details</button>
+  </fieldset>
+
+  <fieldset id="contact__form__name">
+    <label class="contact__form__title contact__form__title--required" for="contact__form__name__personal">Name</label>
+    <label class="contact__form__title contact__form__title--required contact__form__title--job" for="contact__form__name__last">Name</label>
+    <div>
+      <input id="contact__form__name__personal" type="text" value="" placeholder="Name" name="name" required>
+      <input id="contact__form__name__company" type="text" value="" placeholder="Name of your company" name="company">
+      <input id="contact__form__name__last" type="text" value="" placeholder="Last name" name="last-name" required>
+      <input id="contact__form__name__first" type="text" value="" placeholder="First name" name="first-name" required>
+    </div>
+  </fieldset>
+
+  <fieldset id="contact__form__info">
+    <label class="contact__form__title contact__form__title--required" for="contact__form__info__email">Info</label>
+    <div>
+      <input id="contact__form__info__email" type="email" placeholder="Email" name="email" required>
+      <input id="contact__form__info__phone" type="tel" placeholder="Phone" name="phone" required>
+      <input id="contact__form__info__address" type="text" placeholder="Address" name="address">
+      <input id="contact__form__info__call" type="text" placeholder="Best time to call" name="call">
+    </div>
+  </fieldset>
+
+  <!-- <fieldset id="contact__form__salary">
+    <label class="contact__form__title" for="contact__form__name__salary__value">Desired Salary</label>
+    <input id="contact__form__name__salary__value" type="text" placeholder="Desired Salary" name="salary">
+  </fieldset> -->
+  <fieldset id="contact__form__salary">
+    <legend class="contact__form__title">Desired Salary</legend>
+    <div id="contact__form__salary__select-wrapper">
+      <div id="contact__form__salary__select-picto"></div>
+      <select id="contact__form__salary__select" name="salary" required>
+          <option value="" disabled selected>Please select expected salary</option>
+          <option value="Up to ₹3 LPA">Up to ₹3 LPA</option>
+          <option value="₹3–6 LPA">₹3–6 LPA</option>
+          <option value="₹6–10 LPA">₹6–10 LPA</option>
+          <option value="₹10–15 LPA">₹10–15 LPA</option>
+          <option value="₹15–25 LPA">₹15–25 LPA</option>
+          <option value="₹25 LPA +">₹25 LPA +</option>
+        </select>
+    </div>
+  </fieldset>
+        <fieldset id="contact__form__edu">
+    <legend class="contact__form__title contact__form__title--required">Education</legend>
+    <div id="contact__form__edu__container">
+      <div class="contact__form__edu__item">
+        <div class="contact__form__edu__studies">
+          <input type="text" name="school_name[]" value="" placeholder="Name of school" required>
+          <input type="text" name="study_field[]" value="" placeholder="Field of study" required>
+        </div>
+        <div class="contact__form__edu__dates">
+          <label class="contact__form__label" for="contact__form__edu__dates__start--0">Dates attended</label>
+          <div class="contact__form__edu__dates__inputs">
+            <input class="contact__form__edu__dates__start" id="contact__form__edu__dates__start--0" type="date" pattern="\d{1,2}/\d{1,2}/\d{4}" name="studies_start[]" value="" placeholder="MM/DD/YYYY" required>
+            <label class="contact__form__edu__dates__link" for="contact__form__edu__dates__end--0">to</label>
+            <input class="contact__form__edu__dates__end" id="contact__form__edu__dates__end--0" type="date" pattern="\d{1,2}/\d{1,2}/\d{4}" name="studies_end[]" value="" placeholder="MM/DD/YYYY" required>
+          </div>
+        </div>
+        <div class="contact__form__edu__graduate">
+          <div class="contact__form__label">Did you graduate ?</div>
+          <div class="contact__form__radio">
+            <label>
+              <input type="radio" name="graduate[0]" value="1" placeholder="" required>
+              <span class="contact__form__radio__picto"></span>
+              <span class="contact__form__radio__label">Yes</span>
+            </label>
+          </div>
+          <div class="contact__form__radio">
+            <label>
+              <input type="radio" name="graduate[0]" value="0" placeholder="" required>
+              <span class="contact__form__radio__picto"></span>
+              <span class="contact__form__radio__label">No</span>
+            </label>
+          </div>
+        </div>
+        <button class="contact__form__btn contact__form__edu__remove" type="button"></button>
+      </div>
+    </div>
+    <button class="contact__form__btn" id="contact__form__edu__add" type="button"><span id="contact__form__edu__add__icon"></span>Add education</button>
+  </fieldset>
+        <fieldset id="contact__form__org">
+    <legend class="contact__form__title">Organizations</legend>
+    <div id="contact__form__memberships">
+      <label class="contact__form__label" for="contact__form__memberships__input">Please list relevant memberships in organizations along with dates and any relevant certifications along with dates of expiration:</label>
+      <textarea id="contact__form__memberships__input" name="memberships"></textarea>
+    </div>
+    <div id="contact__form__eligible">
+      <div class="contact__form__label">Are you legally eligible for employment in India?</div>
+      <div class="contact__form__radio">
+        <label>
+          <input type="radio" name="eligible" value="1" placeholder="">
+          <span class="contact__form__radio__picto"></span>
+          <span class="contact__form__radio__label">Yes</span>
+        </label>
+      </div>
+      <div class="contact__form__radio">
+        <label>
+          <input type="radio" name="eligible" value="0" placeholder="">
+          <span class="contact__form__radio__picto"></span>
+          <span class="contact__form__radio__label">No</span>
+        </label>
+      </div>
+    </div>
+    <div id="contact__form__perform">
+      <div class="contact__form__label">Can you perform the duties of the job you are applying for?</div>
+      <div class="contact__form__radio">
+        <label>
+          <input type="radio" name="perform" value="1" placeholder="">
+          <span class="contact__form__radio__picto"></span>
+          <span class="contact__form__radio__label">Yes</span>
+        </label>
+      </div>
+      <div class="contact__form__radio">
+        <label>
+          <input type="radio" name="perform" value="0" placeholder="">
+          <span class="contact__form__radio__picto"></span>
+          <span class="contact__form__radio__label">No</span>
+        </label>
+      </div>
+    </div>
+  </fieldset>
+        <fieldset id="contact__form__message">
+    <label class="contact__form__title" for="contact__form__message__input">Your message</label>
+    <textarea id="contact__form__message__input" placeholder="Type your request here" name="message"></textarea>
+  </fieldset>
+        <div id="contact__form__vendor-doc">
+    <div id="contact__form__vendor-doc__txt">Tell us about your company, your services and the regions you operate in — our procurement team will be in touch.</div>
+  </div>
+        <button class="contact__form__btn" id="contact__form__submit" type="submit" disabled>
+    <div>
+      <span id="contact__form__submit__picto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 18"><path d="M0 18l21-9L0 0v7l15 2-15 2v7z"/><path fill="none" d="M-2-3h24v24H-2V-3z"/></svg></span>
+      <span id="contact__form__submit__label">Send message</span>
+    </div>
+  </button>
+        <div id="contact__form__file">
+    <input type="file" id="contact__form__file__input" name="file">
+    <label class="contact__form__btn" for="contact__form__file__input" id="contact__form__file__btn">
+      <span id="contact__form__file__btn__picto"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 11"><path d="M0 5.5C0 2.5 2.5 0 5.5 0H16c2.2 0 4 1.8 4 4s-1.8 4-4 4H7.5C6.1 8 5 6.9 5 5.5S6.1 3 7.5 3H15v2H7.4c-.6 0-.6 1 0 1H16c1.1 0 2-.9 2-2s-.9-2-2-2H5.5C3.6 2 2 3.6 2 5.5S3.6 9 5.5 9H15v2H5.5C2.5 11 0 8.5 0 5.5z"/><path fill="none" d="M-2-7h24v24H-2V-7z"/></svg></span>
+      <span id="contact__form__file__btn__label">Join a file</span>
+    </label>
+  </div>
+  <p id="contact__form__file-infos">* The attach a file should be able to receive .doc, .docx, and .pdf file formats.</p>
+</form>
+  <div id="contact__infos">
+  <div id="contact__infos__panel">
+    <h3 id="contact__infos__panel__title">Any request ?</h3>
+
+    <div class="contact__infos__panel__set">
+      <h4 class="contact__infos__panel__subtitle">Get in touch !</h4>
+      <div id="contact__infos__direct">
+        <div id="contact__infos__address">Vrundavan Construction<br>Suite 405, Industrial Hub West<br>Maharashtra, India 400013</div>
+        <div id="contact__infos__phone"><strong>Phone:</strong> +91 123 456 7890</div>
+        <div id="contact__infos__email"><strong>Email:</strong> <a href="mailto:projects@vrundavan.com" target="_blank" rel="noopener" class="contact__email-link"><span class="contact__email-link__txt">projects@vrundavan.com</span></a></div>
+      </div>
+    </div>
+
+    <div class="contact__infos__panel__set">
+      <h4 class="contact__infos__panel__subtitle">Want to join the team ?</h4>
+      <div id="contact__infos__careers">
+        <p>Use the form. All applicants must complete the online form</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact__infos__map"></div>
+</div>
+  <div id="contact__jobs" name="jobs">
+  <div id="contact__jobs__cover"></div>
+
+  <div id="contact__jobs__content">
+    <h3 id="contact__jobs__title">Open position</h3>
+    <p id="contact__jobs__intro">All offers of employment at Vrundavan Construction are subject to verification of identity, qualifications and references.<br>No agencies please. Unsolicited CVs from third-party agencies will not be accepted.</p>
+    <ul id="contact__jobs__list">
+              <li class="contact__jobs__item" id="contact__jobs__item--general-application">
+          <h4 class="contact__jobs__item__title">General application — engineering &amp; site roles</h4>
+          <div class="contact__jobs__item__desc">
+            <div class="contact__jobs__item__desc__txt">VRUNDAVAN CONSTRUCTION IS ALWAYS LOOKING FOR PEOPLE WHO WANT TO BUILD INDIA’S INFRASTRUCTURE.<br />
+We regularly hire site engineers, project managers, surveyors, equipment operators, welders and safety officers for pipeline, road, tower, OFC, civil and railway projects across India.<br />
+Tell us about your experience, the role you are interested in and the states you can work in, and attach your CV. Our team reviews every application.</div>
+            <div class="contact__jobs__item__desc__truncated-txt"></div>
+            <button class="contact__jobs__item__close">Close</button>
+          </div>
+          <a class="contact__jobs__item__apply" href="#contact__form__subject__list" data-id="general-application">Apply now</a>
+        </li>
+    </ul>
+  </div>
+</div>
+</section>
